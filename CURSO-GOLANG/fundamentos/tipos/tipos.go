@@ -34,4 +34,15 @@ func main() {
 	s1 := "Olá meu nome é Edu"
 	fmt.Println(s1)
 	fmt.Println("O tipo de s1 é", reflect.TypeOf(s1))
+	fmt.Println("O tamanho da string é", len(s1))
+
+	// string com múltiplas linhas
+	s2 := `Olá
+	meu
+	nome
+	é
+	Edu
+	`
+	fmt.Println(s2)
+	fmt.Println("O tamanho da string é", len(s2))
 }
